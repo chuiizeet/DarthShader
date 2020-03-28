@@ -82,12 +82,12 @@ open class SceneViewController: UIViewController {
         codeTable?.sections = [Section("Settings",
                                        items: [.geometry(GeometryModel())],
                                        isCollapsed: true),
-//                               Section("Utility",
-//                                       items: helperFunctions,
-//                                       isCollapsed: true),
-//                               Section("Fragment Shader",
-//                                       items: [.code(Snippet("Fragment", code: .fragmentShader, isFragmentShader: true))],
-//                                       isCollapsed: false)]
+                               Section("Utility",
+                                       items: helperFunctions,
+                                       isCollapsed: true),
+                               Section("Fragment Shader",
+                                       items: [.code(Snippet("Fragment", code: .fragmentShader, isFragmentShader: true))],
+                                isCollapsed: false),
             Section("Fragment Shader",
                     items: [.code(Snippet("Fragment", code: .megaTest2, isFragmentShader: true))],
                     isCollapsed: false)]

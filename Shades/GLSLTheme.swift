@@ -29,7 +29,7 @@ public struct DefaultSourceCodeTheme: SourceCodeTheme {
     
     public let caretColor: Color = Color(red:0.98, green:0.71, blue:0.07, alpha:1.00)
     
-    public let backgroundColor = Color(red: 31/255.0, green: 32/255, blue: 41/255, alpha: 0.3)
+    public let backgroundColor = Color(red: 0/255.0, green: 0/255, blue: 0/255, alpha: 0.75)
     
     public func color(for syntaxColorType: SourceCodeTokenType) -> Color {
         
@@ -38,7 +38,7 @@ public struct DefaultSourceCodeTheme: SourceCodeTheme {
             return .white
             
         case .number:
-            return Color(red: 116/255, green: 109/255, blue: 176/255, alpha: 1.0)
+            return Color(red: 65/255, green: 105/255, blue: 225/255, alpha: 1.0)
             
         case .string:
             return Color(red: 211/255, green: 35/255, blue: 46/255, alpha: 1.0)

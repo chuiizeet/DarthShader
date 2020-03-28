@@ -17,7 +17,10 @@ DarthShader is a simple fragment shader playground for iOS. A live version of th
 ## Installation
 
 Clone project and initialize submodules:
+`git rm --cached -r source-editor`  
 `git submodule update --init --recursive`
+
+
 
 
 ## Thanks
